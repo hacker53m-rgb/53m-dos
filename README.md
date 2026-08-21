@@ -18,3 +18,13 @@ This project provides tools and documentation for understanding and testing deni
 ```bash
 git clone https://github.com/hacker53m-rgb/53m-dos.git
 cd 53m-dos
+
+```
+
+
+### Note:
+
+You must install qemu to run it and run it with this:
+
+```
+qemu-system-x86_64 -drive format=raw,file=53mdos.img
