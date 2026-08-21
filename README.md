@@ -9,8 +9,9 @@ A comprehensive DOS (Disk Operating System).
 - Create c_drive.img & d_drive.img
 - Run the command:
 
-  ```
+```
 qemu-system-x86_64 -drive format=raw,file=53mdos.img
+
 ```
 
 ### Note:
